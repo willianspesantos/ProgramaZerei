@@ -1,0 +1,59 @@
+.resposta {
+    margin-top: 1rem;
+}
+
+.resposta h2 {
+    font-size: 2rem;
+}
+
+.resposta__resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resposta__resultado div {
+    margin: .5rem 3rem 2rem;
+}
+
+.resposta__resultado div p {
+    font-size: 3rem;
+}
+
+.resposta__resultado .sobrar {
+    color: var(--cor-valor-positivo);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.faltar {
+    color: var(--cor-valor-negativo);
+}
+
+.botao-refazer {
+    border: none;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    height: 8rem;
+    width: 10rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: #692206;
+    background: #616ee9;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: 0.4s;
+    box-shadow: 0 1rem 0 #454fa5;
+}
+
+.botao-refazer:hover {
+    cursor: pointer;
+    background: #505cc2;
+}
+
+.botao-refazer:active {
+    box-shadow: none;
+    top: 0.8rem;
+    position: relative;
+}
+

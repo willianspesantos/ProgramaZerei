@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programa Zerei 2.3</title>
+        <link rel="shortcut icon" href="asseds/imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="asseds/style/main.css">
+        <link rel="stylesheet" href="asseds/style/secaoCalculo.css">
+        <link rel="stylesheet" href="asseds/style/secaoResposta.css">
+        <link rel="stylesheet" href="asseds/style/footer.css">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    </head>
+    <body class="corpo">
+        <div class="container">
+            <header class="cabecalho">
+                <h1>Programa Zerei</h1>
+                <span>2.5</span>
+                <img src="asseds/imagens/usuario.png" alt="usuario com celular">
+            </header>
+           
+            <section class="secao-calculo">
+                <label for="valor">Digite o valor total arrecadado:</label>
+                <input type="number" class="campo-valor" data-valor placeholder="R$ Digite aqui" required>
+                <div class="botoes">
+                    <button type="button" class="botao-basica" data-botao-simples>Tarifa Simples</button>
+                    <button type="button" class="botao-especial" data-botao-especial>Tarifa Especial</button>
+                </div>
+            </section>
+            <section class="resposta" data-resposta>
+                
+            </section>
+            <footer>
+                <p>&copy;DevWIllians</p>
+            </footer>
+    
+        </div>
+        <script type="module" src="script/main.js"></script>
+        <script src="script/function.js"></script>
+    </body>
+</html>
